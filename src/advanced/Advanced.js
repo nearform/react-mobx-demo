@@ -9,6 +9,7 @@ const Filters = observer(() => {
   const {
     fetched,
     query,
+    category,
     sortAsc,
     canClearFilters,
     onChangeCategory,
@@ -25,7 +26,7 @@ const Filters = observer(() => {
     <>
       <div>
         Filter:
-        <select onChange={(e) => onChangeCategory(e.target.value)}>
+        <select value={category || ""} onChange={(e) => onChangeCategory(e.target.value)}>
           {CATEGORIES.map((category) => (
             <option key={category} value={category}>
               {category || "All"}
