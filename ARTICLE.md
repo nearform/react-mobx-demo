@@ -1,3 +1,0 @@
-# MobX
-
-## What is MobX
