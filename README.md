@@ -2,7 +2,7 @@
 
 This repository showcases usage of MobX with React.
 
-A live version can be found at https://react-mobx-demo-5mkvev3lx.vercel.app/
+A live version can be found at https://nearform.github.io/react-mobx-demo/
 
 ## How to run
 
